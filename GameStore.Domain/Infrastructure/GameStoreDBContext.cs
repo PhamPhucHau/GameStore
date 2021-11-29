@@ -30,5 +30,7 @@ namespace GameStore.Domain.Infrastructure
         public virtual DbSet<Review> Reviews { get; set; }
         public virtual DbSet<OrderItem> OrderItems { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
+
+        public System.Data.Entity.DbSet<GameStore.Domain.Model.Feedback> Feedbacks { get; set; }
     }
 }

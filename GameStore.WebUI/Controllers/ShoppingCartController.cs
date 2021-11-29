@@ -67,7 +67,7 @@ namespace GameStore.WebUI.Controllers
             return View(checkout);
         }
 
-        public ActionResult PlaceOrder(CheckoutViewModel value)
+         public ActionResult PlaceOrder(CheckoutViewModel value)
         {          
             ShoppingCart cart = (ShoppingCart)Session["ShoppingCart"];
             if (cart == null)

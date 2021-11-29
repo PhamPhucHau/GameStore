@@ -36,7 +36,6 @@ namespace GameStore.WebUI.Controllers
             if (ModelState.IsValid)
             {
                 AppUser user = UserManager.FindByEmail(model.Email);
-                
                 if (user != null)
                 {
                     ModelState.AddModelError("", "User with this email address has already existed! Please try another email address!");
@@ -77,8 +76,8 @@ namespace GameStore.WebUI.Controllers
                 //RegisterViewModel model = (RegisterViewModel)Session["Register"];
                 if (model != null)
                 {
-                     user = new AppUser { Email = model.Email, UserName = model.UserName, Membership = model.Membership };
-                    var result =  UserManager.CreateAsync(user, model.Password);
+                    user = new AppUser { Email = model.Email, UserName = model.UserName, Membership = model.Membership };
+                    var result = UserManager.CreateAsync(user, model.Password);
                     if (result.Result.Succeeded)
                     {
                         var newUser = UserManager.FindByEmail(model.Email);

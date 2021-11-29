@@ -1,5 +1,4 @@
-﻿using GameStore.Domain.Infrastructure;
-using Microsoft.AspNet.Identity;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -34,5 +33,4 @@ namespace GameStore.Domain.Identity
         [Required(ErrorMessage = "Please enter a description")]
         public string Description { get; set; }
     }
-    
 }

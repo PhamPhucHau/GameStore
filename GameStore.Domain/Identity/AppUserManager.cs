@@ -90,10 +90,6 @@ namespace GameStore.Domain.Identity
         {
             return _store.Users.Where(u => u.Email == email).FirstOrDefaultAsync();
         }
-        public string FindNameById(string id)
-        {
-            return _store.Users.Where(u => u.Id == id).FirstOrDefault().UserName;
-        }
         public static AppUserManager Create(IdentityFactoryOptions<AppUserManager> options, IOwinContext context)
         {
             var manager = new AppUserManager(new AppUserStore(context.Get<GameStoreDBContext>()));

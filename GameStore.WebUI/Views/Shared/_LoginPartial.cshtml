@@ -23,7 +23,14 @@
                         <li>@Html.ActionLink("Order", "Order", "Store", new { area = "Admin" }, null)</li>
                         <li class="nav-divider"></li>
                         <li>@Html.ActionLink("My Order", "Index", "MyOrder", new { area = "" }, null)</li>
-                        <li>@Html.ActionLink("My Cart", "Index", "ShoppingCart", new { area = "" }, null)</li>                        
+                        <li>@Html.ActionLink("My Cart", "Index", "ShoppingCart", new { area = "" }, null)</li>
+
+                        <li class="nav-divider"></li>
+                        <li>@Html.ActionLink("Feedback", "Index", "Feedbacks", new { area = "" }, null)</li>
+
+                        
+                        <li class="nav-divider"></li>
+                        <li>@Html.ActionLink("Reviews", "Index", "Reviews", new { area = "" }, null)</li>
                     }
                     @if (HttpContext.Current.User.IsInRole("Advanced"))
                     {
@@ -35,6 +42,8 @@
                         <li class="nav-divider"></li>
                         <li>@Html.ActionLink("My Order", "Index", "MyOrder", new { area = "" }, null)</li>
                         <li>@Html.ActionLink("My Cart", "Index", "ShoppingCart", new { area = "" }, null)</li>
+                        <li class="nav-divider"></li>
+                        <li>@Html.ActionLink("Feedback", "Create", "Feedbacks", new { area = "" }, null)</li>
                     }
                     @if (HttpContext.Current.User.IsInRole("Regular"))
                     {
@@ -43,6 +52,8 @@
                         <li class="nav-divider"></li>
                         <li>@Html.ActionLink("My Order", "Index", "MyOrder", new { area = "" }, null)</li>
                         <li>@Html.ActionLink("My Cart", "Index", "ShoppingCart", new { area = "" }, null)</li>
+                        <li class="nav-divider"></li>
+                        <li>@Html.ActionLink("Feedback", "Create", "Feedbacks", new { area = "" }, null)</li>
                     }
                 </ul>
             </li>

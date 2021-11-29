@@ -10,9 +10,9 @@ using System.Web.Mvc;
 using GameStore.Domain.Identity;
 
 namespace GameStore.WebUI.Controllers
-{    
+{
     public class ProductController : Controller
-    {        
+    {
         public ActionResult Console()
         {
             List<ProductDTO> list = GetProductsByCategory(1);
@@ -85,25 +85,25 @@ namespace GameStore.WebUI.Controllers
         }
 
         public ActionResult Detail(int id)
-        {            
+        {
             ProductDTO model = null;
             using (GameStoreDBContext context = new GameStoreDBContext())
             {
                 List<Review> model2 = context.Reviews.Where(x => x.ProductId == id).ToList();
-                foreach(var item in model2)
+                foreach (var item in model2)
                 {
                     item.User = new AppUser();
                     item.User.UserName = context.Users.Where(x => x.Id == item.User_Id).FirstOrDefault().UserName;
-                }    
+                }
                 var query = from product in context.Products
                             where product.ProductId == id
                             join category in context.Categories
-                              on product.CategoryId equals category.CategoryId 
-                            select new ProductDTO { ProductId = product.ProductId, ProductName = product.ProductName, CategoryId = product.CategoryId, CategoryName = category.CategoryName, Price = product.Price, Image = product.Image, Condition = product.Condition, Discount = product.Discount, UserId = product.UserId};
+                              on product.CategoryId equals category.CategoryId
+                            select new ProductDTO { ProductId = product.ProductId, ProductName = product.ProductName, CategoryId = product.CategoryId, CategoryName = category.CategoryName, Price = product.Price, Image = product.Image, Condition = product.Condition, Discount = product.Discount, UserId = product.UserId };
                 model = query.FirstOrDefault();
                 model.Reviews = model2;
                 //var query2 = from review in context.Reviews where review.ProductId == id select new Review { ReviewId=review.ReviewId,UserId=review.UserId,Comments=review.Comments,ReviewDate=review.ReviewDate };
-                
+
             }
             return View(model);
         }
@@ -130,7 +130,7 @@ namespace GameStore.WebUI.Controllers
         {
             string comment = Request["comment"].ToString();
             Review review = new Review();
-            review.ProductId =int.Parse(Request["idproduct"].ToString());
+            review.ProductId = int.Parse(Request["idproduct"].ToString());
             review.Comments = comment;
             review.ReviewDate = DateTime.Now;
             review.User_Id = User.Identity.GetUserId();
@@ -142,20 +142,21 @@ namespace GameStore.WebUI.Controllers
                     {
                         if (review != null)
                         {
-               
+
                             context.Reviews.Add(review);
                             context.SaveChanges();
-                            return Redirect("/Product/Detail/"+review.ProductId);
-                            
+                            return Redirect("/Product/Detail/" + review.ProductId);
+
+                        }
+
                     }
-                     
-                    } }
+                }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                ViewBag.Message=ex.Message;
+                ViewBag.Message = ex.Message;
             }
-            return Redirect("/Product/Detail/"+review.ProductId);
+            return Redirect("/Product/Detail/" + review.ProductId);
         }
         [Authorize(Roles = "Admin, Advanced")]
         public ActionResult MyProductOrders()
@@ -171,7 +172,7 @@ namespace GameStore.WebUI.Controllers
                                 join category in context.Categories
                                   on product.CategoryId equals category.CategoryId
                                 select new ProductOrderDTO { ProductId = product.ProductId, ProductName = product.ProductName, CategoryId = product.CategoryId, CategoryName = category.CategoryName, Price = product.Price, Image = product.Image, Condition = product.Condition, Discount = product.Discount, UserId = product.UserId };
-                    list = query.ToList();                    
+                    list = query.ToList();
 
                     foreach (ProductOrderDTO product in list)
                     {
