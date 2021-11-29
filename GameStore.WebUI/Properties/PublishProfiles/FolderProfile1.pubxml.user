@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Publish</_PublishTargetUrl>
+    <History>True|2021-11-27T15:34:15.5958086Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/Account/AppRole.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Account/AppUser.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Dashboard/Index.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Store/Category.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Store/Order.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Store/Product.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/_ViewStart.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 15:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 15:43:40</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/GameStore.Domain.dll">
+      <publishTime>11/27/2021 22:34:10</publishTime>
+    </File>
+    <File Include="bin/GameStore.Domain.dll.config">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="bin/GameStore.Domain.pdb">
+      <publishTime>11/27/2021 22:34:10</publishTime>
+    </File>
+    <File Include="bin/GameStore.Extension.dll">
+      <publishTime>11/27/2021 22:34:10</publishTime>
+    </File>
+    <File Include="bin/GameStore.Extension.pdb">
+      <publishTime>11/27/2021 22:34:10</publishTime>
+    </File>
+    <File Include="bin/GameStore.WebUI.dll">
+      <publishTime>11/27/2021 22:34:14</publishTime>
+    </File>
+    <File Include="bin/GameStore.WebUI.pdb">
+      <publishTime>11/27/2021 22:34:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/04/2015 00:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/04/2015 00:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/04/2015 00:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 09:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 20:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 20:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>01/13/2014 23:11:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>01/13/2014 23:11:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>01/13/2014 23:11:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 18:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/04/2014 03:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 19:19:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/19/2015 03:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/19/2015 03:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 11:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 11:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 11:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 11:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 11:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 22:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 11:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 11:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 11:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 11:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/18/2013 00:03:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/fancybox/blank.gif">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/fancybox/fancybox_buttons.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/fancybox/fancybox_loading%402x.gif">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/fancybox/fancybox_loading.gif">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/fancybox/fancybox_overlay.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/fancybox/fancybox_sprite%402x.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/fancybox/fancybox_sprite.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/jquery.fancybox-buttons.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/jquery.fancybox-thumbs.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/jquery.fancybox.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/popup.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/accordion.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/all.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/autocomplete.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/base.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/button.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/core.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/datepicker.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/dialog.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/draggable.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/menu.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/progressbar.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/resizable.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectable.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectmenu.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/slider.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/sortable.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/spinner.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/tabs.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/theme.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Content/themes/base/tooltip.css">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/chartboost.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/ps3_controller.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/ps3_diskcontroller.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/ps4_controllercharger.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/Turtle Beach Headset.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/wiiu_fightingpad.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/wiiu_gamecube.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/wii_chargingsystem.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/wii_remoteplus.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/XBOX controller.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/XBOX360-SpeedWheel.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/accessories/xbox360_wa.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/bag.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/consoles/ps3-console.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/consoles/PS4-console-bundle.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/consoles/wii.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/consoles/wiiu.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/consoles/xbox1.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/consoles/xbox360.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/favorite.ico">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/games/activision_cod.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/games/activision_prot.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/games/ea_fifa.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/games/ea_nfs.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/games/tti_evolve.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/games/tti_gta.jpg">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="images/search.png">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/26/2021 09:42:05</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.min.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.min.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.min.map">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery-ui-1.11.4.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery-ui-1.11.4.min.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.fancybox-buttons.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.fancybox-media.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.fancybox-thumbs.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.fancybox.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.fancybox.pack.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.mousewheel-3.0.6.pack.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.min.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="scripts/modernizr-2.6.2.js">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePassword.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/MemberProfile.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/ProcessCreditResponse.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>11/26/2021 18:19:44</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/MyOrder/Detail.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/MyOrder/Index.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Product/Detail.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Product/List.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Product/MyProductOrders.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Product/MyProducts.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_FrontLayout.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_FrontPartial.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/Checkout.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/Index.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/PlaceOrder.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/26/2021 09:29:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/27/2021 22:34:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
